@@ -7,23 +7,27 @@ type Props = {};
 type State = {};
 
 export default class Component extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
-  // props: Props;
-  state: State;
+	// props: Props;
+	state: State;
 
-  constructor(props: Props) {
-    super(props);
+	constructor(props: Props) {
 
-    this.state = {};
-  }
+		super(props);
 
-  /**
-   * Render
-   */
-  render() {
-    return (
-      <div>This my sample React component.</div>
-    );
-  }
+		this.state = {};
+
+	}
+
+	/**
+	 * Render
+	 */
+	render() {
+
+		return <div>
+      This my sample React component.
+    </div>;
+
+	}
 }
 
 // Selection.propTypes = {};
